@@ -1,0 +1,61 @@
+/*
+ Theme Name:   Celeste Child
+ Theme URI:    http://celeste.bold-themes.com
+ Description:  Celeste child theme
+ Author:       BoldThemes
+ Author URI:   http://bold-themes.com
+ Template:     celeste
+ Version:      1.0.0
+ Tags:         one-column, right-sidebar, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain:  celeste-child
+*/
+
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+/* Form Style */
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=email],
+div.wpforms-container-full .wpforms-form textarea,
+div.wpforms-container-full .wpforms-form select.wpforms-field-large {
+    border-radius: 50px !important;
+    padding: .8em 2em !important;
+}
+
+div.wpforms-container-full .wpforms-form select.wpforms-field-large { padding: .6em 2em !important; }
+
+div.wpforms-container-full .wpforms-form textarea {
+    border-radius: 20px !important;
+}
+
+div.wpforms-container-full .wpforms-form textarea:focus {
+    border: 1px solid rgba(0,0,0,.3);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3), 0 -2px 0 0 #f16334 inset;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit],
+div.wpforms-container-full .wpforms-form button[type=submit]:hover,
+div.wpforms-container-full .wpforms-form button[type=submit]:focus {
+    background: #f16334 !important;
+    color: #ffffff !important;
+    line-height: 1em;
+    padding: 1em 2em 1em 2em !important;
+    border-radius: 50px;
+    transition: all 300ms ease;
+    border: none;
+} 
+
+div.wpforms-container-full .wpforms-form button[type=submit]:hover,
+div.wpforms-container-full .wpforms-form button[type=submit]:focus {
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    transform: translateY(-3px);
+}
+
+.wpforms-submit-container { text-align: center; }
+
+/* Footer Fix */
+footer .bt_bb_row {
+	display: flex;
+    flex-wrap: wrap;
+}
